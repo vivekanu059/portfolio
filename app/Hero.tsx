@@ -17,7 +17,7 @@ export default function Hero() {
           <img src="/vivek.jpg" alt="" className="h-14 w-14 rounded-full bg-paper object-cover object-top mix-blend-normal" />
           <p>Vivek Anurag / Bengaluru</p>
         </div>
-        <h1 className="max-w-6xl text-5xl font-medium leading-[1.02] tracking-tight sm:text-7xl lg:text-8xl"><Words text="Distributed Systems Engineer & AI Data Architect" delay={2} /></h1>
+        <h1 className="max-w-6xl text-5xl font-medium leading-[1.02] tracking-tight sm:text-7xl lg:text-8xl"><Words text="Backend AI Engineer & Data Strategist" delay={2} /></h1>
         <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 3 }} className="mt-8 max-w-2xl text-lg text-mute md:text-xl">Orchestrating autonomous AI agents, engineering high-throughput backend systems, and optimizing business operations through data analytics.</motion.p>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 3.2 }} className="mt-10 flex flex-wrap gap-4">
           <a href="#work" className="rounded-full bg-paper px-8 py-4 font-medium text-ink transition hover:bg-accent">View my work</a>
